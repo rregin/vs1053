@@ -1,4 +1,4 @@
-# vs1053
+# vs1053 Real Time Midi (RTMIDI)
 VS1053 Arduino MP3 Shield Real Time Midi TEST (rtmidi) 
 
 A STAND ALONE Arduino Code to confirm the functionality of Real Time MIDI via SPI
