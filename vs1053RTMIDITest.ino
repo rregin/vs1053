@@ -79,7 +79,7 @@ void noteOn(byte channel, byte note, byte attack_velocity) {
 void noteOff(byte channel, byte note, byte release_velocity) {
   sendMIDI( (0x80 | channel), note, release_velocity);
 }
-void loop() 
+void loop() {
   for(int m=0; m<16;m++){
     for(int n=60;n<90;n++){
     noteOn(m,n,90);
